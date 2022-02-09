@@ -34,4 +34,4 @@ jobs:
     - name: Unittest file
       run: python3 -m unittest test.py
     - name: Unittest folder
-      run: python -m unittest discover -p test
+      run: python -m unittest discover -s test -p "*.py"
